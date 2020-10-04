@@ -7,7 +7,7 @@
 - ABI is the combination of the ISA and the set of calls to interact with the AEE. ABI abstracts the AEE from the application
 - ABI allows the portability of the application by hiding the details of the AEE from the applications.
 
-![[riscv.png]]
+![Modes of Operations](../_assets/risc-v/riscv-modes.png)
 
 #### RISC-V Hart
 RISC-V Hardware thread running at some privilege level and encoded as the mode in the CSRs registers (Control and Status Registers).
@@ -15,4 +15,4 @@ RISC-V Hardware thread running at some privilege level and encoded as the mode i
 ### 1.2 Privilege Levels
 - Hart always runs at some privilege level.
 - Unavailable operation at some privilege level meant for higher level privilege level generates the exception.
-![[Pasted image 20200928194504.png]]
+![Privilege Levels](../assets/risc-v/riscv-privilegelevels.png)
