@@ -15,4 +15,4 @@ RISC-V Hardware thread running at some privilege level and encoded as the mode i
 ### 1.2 Privilege Levels
 - Hart always runs at some privilege level.
 - Unavailable operation at some privilege level meant for higher level privilege level generates the exception.
-![Privilege Levels](../assets/risc-v/riscv-privilegelevels.png)
+![Privilege Levels](../_assets/risc-v/riscv-privilegelevels.png)
